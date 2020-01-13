@@ -6,7 +6,8 @@ import {Quote} from '../quote';
   styleUrls: ['./qoute-details.component.scss']
 })
 export class QouteDetailsComponent implements OnInit {
-
+  @Input() quote: Quote;
+  
   constructor() { }
 
   ngOnInit() {
