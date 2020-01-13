@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote} from './quote';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +12,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  quotes:string[];
-
-  construtcor(){
-  this.quotes=['Act as if what you do makes a difference .It does','Never bend your head.Always hold it high.Look the world straight in the eye','Limit your ALWAYS and your NEVERS']
+  quotes:Quote[]= [
+    {id:1, name:'Act as if what you do makes a difference .It does'},
+    {id:2,name:'Limit your ALWAYS and your NEVERS'},
+    {id:3,name:'Never bend your head.Always hold it high.Look the world straight in the eye'},
+  ];
   }
-}
