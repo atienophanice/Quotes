@@ -8,9 +8,9 @@ import { Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[]= [
-    {id:1, name:'Act as if what you do makes a difference .It does'},
-    {id:2,name:'Limit your ALWAYS and your NEVERS'},
-    {id:3,name:'Never bend your head.Always hold it high.Look the world straight in the eye'},
+    {id:1, name:'Act as if what you do makes a difference .It does',description:'William James'},
+    {id:2,name:'Limit your ALWAYS and your NEVERS',description:'Amy Poehler'},
+    {id:3,name:'Never bend your head.Always hold it high.Look the world straight in the eye',description:'Hellen Keller'},
   ];
   constructor() { }
 
