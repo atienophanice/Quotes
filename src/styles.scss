@@ -3,4 +3,13 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.upvote {
+    background-color: green;
+}
+
+.downvote {
+    background-color: red;
 }
