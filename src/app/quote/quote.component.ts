@@ -8,10 +8,22 @@ import { Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[]= [
-    {id:1, name:'Act as if what you do makes a difference .It does',description:'William James'},
-    {id:2,name:'Limit your ALWAYS and your NEVERS',description:'Amy Poehler'},
-    {id:3,name:'Never bend your head.Always hold it high.Look the world straight in the eye',description:'Hellen Keller'},
+    new Quote(1,'Act as if what you do makes a difference .It does', 'William Havy'),
+    new Quote(2,'Limit your ALWAYS and your NEVERS','Jackson Grate'),
+    new Quote(3,'Never bend your head.Always hold it high.Look the world straight in the eye','Hellen Hadson'),
   ];
+
+  toggleDetails(index:any){
+    this.quotes[index].showDescription = !
+    this.quotes[index].showDescription;
+  }
+
+  completeQuote(isComplete, index){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
+  
   constructor() { }
 
   ngOnInit() {

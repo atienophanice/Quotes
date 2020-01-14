@@ -4,19 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
-import { GoalDetailsComponent } from './goal-details/goal-details.component';
-import { QouteDetailsComponent } from './qoute-details/qoute-details.component';
+import { QuoteDetailsComponent} from './quote-details/quote-details.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    GoalDetailsComponent,
-    QouteDetailsComponent
+    QuoteDetailsComponent,
+    StrikethroughDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
