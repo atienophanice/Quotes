@@ -11,7 +11,7 @@ Atienophanice1@gmail.com
 HTML CSS and Angular
 
 ## Project live link
- https://atienophanice.github.io/Quotes/.
+ https://atienophanice.github.io/Quotes/
  ## Support and contact details
 contact me @ atienophanice1@gmail.com
 
