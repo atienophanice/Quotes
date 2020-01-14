@@ -1,6 +1,8 @@
 # Quotes
+## Description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+The project is about quotes where one can either downvote or upvote
+
 
 ## Development server
 
